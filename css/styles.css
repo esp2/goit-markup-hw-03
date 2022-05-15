@@ -37,7 +37,7 @@ padding: var(--maim-conteiner);
 }
   
 .header {
-border-bottom: 1px solid red ;
+border-bottom: 1px ;
 
 }
 .page-header {
@@ -90,34 +90,50 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-border-bottom:1px rgb(208, 47, 58); 
+border-bottom:1px ; 
+top: 24px;
 }
 .main-nav{
 display: flex;
+top: 32px;
+
 }
 .current {
 color: var(--maim-blu-color);
 text-decoration: none ;
-margin-left: 32px;
+margin-left: 93px;
 letter-spacing: 0.02em;
 font-size: 14px;
 line-height: 1.14x;
 }
 .current1 {
 color: var(--maim-black-color);
-margin-left: 32px;
+margin-left: 50px;
 text-decoration: none ;
 letter-spacing: 0.02em;
 font-size: 14px;
 line-height: 1.14x;
+}
+.current2 {
+  color: var(--maim-blu-color);
+  margin-left: 50px;
+  text-decoration: none;
 
 }
 
-.contact{
+.current:hover,.current1:hover,.current2:hover,.contact-phone:hover,.contact-mail:hover, .section-title1:hover,.text-one:hover,.text-two:hover,.section-title2:hover,.section-title3:hover,.title-photo:hover,.title-text:hover,.address1:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover,.title-photo1:hover,.title-text1:hover,.logo:hover {
+  text-decoration: underline var(--maim-blu-color);
+
+}
+.contact {
 display: flex;
 margin:0 auto;
+padding-top: 32px;
+padding-bottom: 32px;
+justify-content: flex-end;
 
-}
+} 
+
 .contact-phone{
   color: var(--maim-darck-color);
   text-decoration: none;
@@ -127,10 +143,10 @@ margin:0 auto;
   font-weight: 500;
   height: 16px;
   margin:0 auto;
-  outline: 1px solid red;
+  outline: 1px ;
   margin-left: 50px;
 }
-.contact-mai{
+.contact-mail {
   color: var(--maim-blu-color);
   text-decoration: none;
   font-size: 14px;
@@ -140,7 +156,11 @@ margin:0 auto;
   height: 16px;
   margin:0 auto;
 }
+.contact-mail1 {
+color: var(--maim-darck-color);
+text-decoration: none;
 
+}
 .section-hero {
 background-color: var(--maim-darck2-color) ; 
 
@@ -152,13 +172,19 @@ line-height: 1.36;
 text-align:center;
 text-transform: uppercase;
 letter-spacing: 0.06em;
-outline: 2px solid red; 
-padding-top: 20px;
+outline: 2px ; 
+padding: 280px;
   
 }
     
 .section3 {
 color: var(--maim-darck2-color);
+}
+.auth-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 18px;
 }
 
 .button-primary {
@@ -170,16 +196,21 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 margin-right: 8px;
- margin-bottom: 50px;
-  
- 
+width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 
 }
-.auth-nav {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  justify-content: center;
+.button-primary1 {
+  color: var(--maim-text-color);
+  background-color: var(--maim-blu-color);
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    margin-right: 8px;
 }
 .button-primary2 {
 color: var(--maim-black-color);
@@ -192,26 +223,25 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 margin-right: 8px;
 margin-bottom: 50px;
-
 }
+
 .list-style{
 justify-content: center;
 display: flex;
-outline: 1px solid red;
+outline: 1px ;
 margin-left: 0 auto;
 flex-wrap: wrap;
-
 margin-top: 94px;
-
 }
+
 .text {
 letter-spacing: 0.03em;
 list-style: none ;
 max-width: 100%;
 padding-top: 94px;
 padding-right: 94px; 
-
 } 
+
 .text-one{
 color: var(--maim-black-color);
 list-style: none ; 
@@ -220,8 +250,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
  }
+
 .text-two {
 font-weight: 400;
 font-size: 14px;
@@ -232,7 +262,6 @@ width: 270px;
 height: 75px;
 left: 1115px;
 top: 800px;
-
  }
 
 .section-title2 {
@@ -254,7 +283,7 @@ outline: 2px;
 
 }
 .photo-iteam2{
-outline: 1px solid red;
+outline: 1px ;
 flex-basis: calc(100% / 3 - 30px);
 margin-left: 30px;
 
@@ -289,6 +318,7 @@ font-weight: 500px;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+
 }
 .title-photo1 {
   margin-top: 10px;
@@ -299,6 +329,7 @@ letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
+  
 }
 .title-text {
   margin-top: 10px;
@@ -321,20 +352,22 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
 }
 .work-list, .work-list1 {
-outline: 1px solid red;
+outline: 1px ;
 display: flex;
 }
 .work-list> .photo-iteam {
-  outline: 1px solid red;
+  outline: 1px ;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+  
 }
 .work-list1> .photo-iteam {
-outline: 1px solid red;
+outline: 1px solid blueviolet;
 margin-top: 30px;
-flex-basis: calc(100% / 4 - 30px);
 margin-right:30px;
+padding: 0auto;
+flex-basis: calc(100% / 3 - 30px);
 
 }
 
