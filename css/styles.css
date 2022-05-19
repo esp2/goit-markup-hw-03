@@ -38,9 +38,6 @@ text-decoration: none;
 font-family: Raleway;
 line-height: 26px;
 letter-spacing: 0.03em;
-padding-top: 24px;
-padding-bottom: 25px;
-outline: none;
 
 }
 .logo-black {
@@ -56,69 +53,61 @@ margin: 0;
 }
 
 .section-main-nav {
-  display: flex;
-  align-items: center; 
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+display: flex;
+align-items: center; 
+
+
 border-bottom: 1px ; 
-top: 24px;
-padding: var(--maim-conteiner);
-  padding: 0.15px;
-  
+padding: 0.15px;
+
 }
 .main-nav{
 display: flex;
-top: 32px;
-bottom: 32px;
-outline: 1px ;
 margin-left: 94px;
-display: block;
-
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .current {
 color: var(--maim-blu-color);
 text-decoration: none ;
+font-weight: 500;
 letter-spacing: 0.02em;
 font-size: 14px;
 line-height: 1.14x;
-padding-top: 32px;
-padding-bottom: 32px;
-
+margin-left: 93px;
 }
 .current1 {
 color: var(--maim-black-color);
 margin-left: 50px;
 text-decoration: none ;
+font-weight: 500;
 letter-spacing: 0.02em;
 font-size: 14px;
 line-height: 1.14x;
-padding-top: 32px;
-padding-bottom: 32px;
+
 }
 .current2 {
   color: var(--maim-blu-color);
   margin-left: 50px;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  
+ 
 }
-
-.current:hover,.current1:hover,.current2:hover,.contact-phone:hover,.contact-mail:hover, .section-title1:hover,.text-one:hover,.text-two:hover,.section-title2:hover,.section-title3:hover,.title-photo:hover,.title-text:hover,.address1:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover,.title-photo1:hover,.title-text1:hover,.logo:hover {
+.contact-mail:hover {
+text-decoration: #2196F3;
+}
+.current:hover,.current1:hover,.current2:hover,.contact-phone:hover, .section-title1:hover,.text-one:hover,.text-two:hover,.section-title2:hover,.section-title3:hover,.title-photo:hover,.title-text:hover,.address1:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover,.title-photo1:hover,.title-text1:hover,.logo:hover {
 text-decoration: underline var(--maim-blu-color);
 
 }
 .contact {
 display: flex;
-margin-left: 0;
-top: 32px;
-bottom: 32px;
-margin-left: auto;
-padding: 0.15px;
-} 
+padding-top: 32px;
+padding-bottom: 32px;
 
+} 
+.mailphone, .phone {
+  margin-left: 50px;
+}
 .contact-phone{
   color: var(--maim-darck-color);
   text-decoration: none;
@@ -127,16 +116,11 @@ padding: 0.15px;
   letter-spacing: 0.02em;
   font-weight: 500;
   height: 16px;
-  outline: 1px ;
   margin-left: 50px;
 
 }
-.contact-mail,.contact-mail1,.button-primary,.contact-phone{
-  padding-top: 32px;
-  padding-bottom: 32px;
-  
-}
-.contact-mail1 {
+
+.contact-mail {
   color: var(--maim-darck-color);
   text-decoration: none;
   font-size: 14px;
@@ -158,20 +142,21 @@ padding-right: 15px;
 margin: 0 auto;
 }
 .section-title1 {
+width: 696px;
 border: 80px;
-padding: var(--maim-conteiner);
 font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin-bottom: 30px;
-  width: 696px;
+ 
 }
 .section3 {
 color: var(--maim-darck2-color);
 padding-top: 94px;
 padding-bottom: 94px;
+background-color: var(--maim-light-color);
 }
 .auth-nav {
   display: flex;
@@ -223,7 +208,6 @@ padding-bottom: 94px;
 }
 
 .list-style{
-justify-content: center;
 display: flex;
 margin-left: -30px ;
 flex-basis: calc ((100%-90px) / 4);
@@ -282,12 +266,8 @@ outline: 2px;
   margin-left: 0;
  
 }
-.photo-iteam2{
-outline: 1px ;
 
-}
 .conteiner{
-padding-bottom: 94px;
 width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
@@ -296,15 +276,14 @@ padding: 0 15px;
 }
 .section-title3 {
 color: var(--maim-black-color);
-background-color: var(--maim-light-color);
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 margin-bottom: 50px;
-padding-top: 94px ;
-padding-bottom:94px ;
+
 }
 .title {
 margin-top: 0;
@@ -322,21 +301,22 @@ font-weight: 500px;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
-margin-bottom: -10px;
+
 }
 .tfoto{
 padding-top: 30px;
 padding-bottom: 30px;
 }
-
+.tp{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .title-photo1 {
   color: var(--maim-darck2-color);
   font-weight: 700px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-bottom: -4px;
  
 }
 
@@ -356,9 +336,7 @@ margin-top:10px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-top: 4px;
-  margin-bottom: 30px;
+ margin-top: 4px;
 }
 
 .work-list, .work-list1 {
@@ -424,7 +402,7 @@ padding-bottom: 60px;
   line-height: 26px;
   letter-spacing: 0.03em;
  margin-bottom: 20px;
-  outline: none;
+ 
 }
 .address1 {
 color: var(--maim-text-color);
