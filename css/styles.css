@@ -96,7 +96,7 @@ line-height: 1.14x;
  
 }
 
-.contact-mail:hover,.current:hover,.current1:hover,.current2:hover,.contact-phone:hover, .section-title1:hover,.text-one:hover,.text-two:hover,.section-title2:hover,.section-title3:hover,.title-photo:hover,.title-text:hover,.address1:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover,.title-photo1:hover,.title-text1:hover,.logo:hover {
+.contact-mail:hover,.current1:hover,.current2:hover,.contact-phone:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover {
 text-decoration: underline var(--maim-blu-color);
 
 }
@@ -319,6 +319,7 @@ padding-bottom: 30px;
 .tp{
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 .title-photo1 {
   color: var(--maim-darck2-color);
@@ -326,7 +327,8 @@ padding-bottom: 30px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
- 
+  margin: 0;
+  padding: 0;
 }
 
 .title-text {
@@ -345,7 +347,8 @@ margin-top:10px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
- margin-top: 4px;
+  margin: 0;
+  padding: 0;
 }
 
 .work-list, .work-list1 {
