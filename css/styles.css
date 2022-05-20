@@ -96,9 +96,17 @@ line-height: 1.14x;
  
 }
 
-.contact-mail:hover,.current1:hover,.current2:hover,.contact-phone:hover,.address:hover,.button-primary:hover,.contact-mail1:hover,.button-primary1:hover,.button-primary2:hover {
-text-decoration: underline var(--maim-blu-color);
-
+.contact-mail:hover,.current1:hover,.current2:hover,.contact-phone:hover,.address:hover,.contact-mail1:hover,.button-primary1:hover {
+text-decoration: none;
+color:var(--maim-blu-color);
+}
+.button-primary2:hover{
+  background-color: var(--maim-blu-color);
+ color: #F5F4FA;
+}
+.button-primary:hover{
+  background-color: blue
+    color: #F5F4FA;
 }
 .contact {
 display: flex;
@@ -187,6 +195,7 @@ display: block;
 margin-right: auto;
 font-family: inherit;
 font-weight: 700;
+cursor: pointer;
 }
 .button-primary1 {
   color: var(--maim-text-color);
@@ -209,7 +218,7 @@ line-height: 1.62;
 letter-spacing: 0.03em;
 margin-right: 8px;
 margin-bottom: 50px;
-
+cursor: pointer;
 }
 .section1{
 padding-top: 94px;
