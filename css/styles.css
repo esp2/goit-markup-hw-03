@@ -25,7 +25,7 @@ font-family: 'Roboto';
 
 }
 .header {
-border-bottom: 1px ;
+border-bottom: 1px solid #c4bebe99;
 }
 .header .conteiner{
 display: flex;
@@ -40,7 +40,7 @@ font-size: 26px;
 color: var(--maim-blu-color);
 text-decoration: none;
 font-family: Raleway;
-line-height: 26px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .logo-black {
@@ -59,13 +59,12 @@ margin: 0 ;
 display: flex;
 align-items: center; 
 flex-flow: row wrap;
-border-bottom: 1px ; 
+border-bottom: 1px ;  
 padding: 0.15px;
-
+    
 }
 .main-nav{
 display: flex;
-margin-left: 94px;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -114,9 +113,7 @@ padding-top: 32px;
 padding-bottom: 32px;
 justify-content: flex-end;
 } 
-.phone {
-  margin-left: 50px;
-}
+
 .contact-phone{
   color: var(--maim-darck-color);
   text-decoration: none;
@@ -137,6 +134,7 @@ justify-content: flex-end;
   letter-spacing: 0.02em;
   font-weight: 500;
   height: 16px;
+  
 }
 
 .section-hero {
@@ -173,7 +171,6 @@ background-color: var(--maim-light-color);
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  padding-top: 18px;
   border-radius: 4px;
   margin-bottom: 50px;
 }
@@ -230,12 +227,13 @@ padding-bottom: 94px;
 .list-style{
 display: flex;
 margin-left: -30px ;
-flex-basis: calc ((100%-90px) / 4);
+flex-basis: calc((100%-1200px) / 4);
 
 }
 .style-text{
   margin-left: 30px;
   letter-spacing: 0.03em;
+  width: 270px;
 }
 .text {
 letter-spacing: 0.03em;
@@ -265,12 +263,13 @@ padding-bottom: 94px;
 }
 .section-title2 {
 color: var(--maim-black-color);
-font-size: 36px;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-align: center; 
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+margin-bottom: 30px; 
+text-transform: uppercase;
 }
 img{
   display: block;
@@ -281,10 +280,6 @@ img{
 display: flex;
 font-size: 14px;
 outline: 2px;
-}
-.team-card>.photo-iteam2:first-child{
-  margin-left: 0;
- 
 }
 
 .conteiner{
@@ -331,6 +326,9 @@ padding-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-right: 1px solid #c4bebe99;
+  border-bottom: 1px solid #c4bebe99;
+  border-left: 1px solid #c4bebe99;
 }
 .title-photo1 {
   color: var(--maim-darck2-color);
@@ -394,16 +392,15 @@ margin: 15px;
 background-color: #FFFFFF;
 flex-basis: calc(100% / 4 - 30px);
 padding-top: 0;
-margin-bottom: 94px;
 
 margin-right: auto;
 }
 .team-card>.photo-iteam2{
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc ((100% - 60px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin: 15px;
-  width: 1200px;
+  
 }
 .page-footer {
 background-color: var(--maim-darck2-color);
@@ -433,7 +430,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
+margin-bottom: 9px;
 }
 
 .address {
@@ -443,6 +440,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin-bottom: 60px;
+margin-bottom: 9px;
 }
  
