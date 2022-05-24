@@ -393,8 +393,12 @@ margin: 15px;
 background-color: #FFFFFF;
 flex-basis: calc(100% / 4 - 30px);
 padding-top: 0;
-
 margin-right: auto;
+}
+.photo-iteam0{
+background-color: #FFFFFF;
+  flex-basis: calc(100% / 4 - 30px);
+  padding-top: 0;
 }
 .team-card>.photo-iteam2{
   margin-right: 30px;
