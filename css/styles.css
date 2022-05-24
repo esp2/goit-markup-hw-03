@@ -292,8 +292,6 @@ padding: 0 15px;
 }
 .section-title3 {
 color: var(--maim-black-color);
-margin: 0;
-padding: 0;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -369,8 +367,9 @@ margin-top:10px;
 outline: 1px ;
 display: flex;
 flex-wrap: wrap;
+}
+.work-list{
 margin: -15px;
-
 }
 
 .portfolio img{
