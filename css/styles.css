@@ -369,6 +369,7 @@ margin-top:10px;
 outline: 1px ;
 display: flex;
 flex-wrap: wrap;
+margin-right: -30px;
 }
 .work-list{
 margin: -15px;
@@ -391,7 +392,7 @@ margin: 15px;
 background-color: #FFFFFF;
 flex-basis: calc(100% / 4 - 30px);
 padding-top: 0;
-margin-right: auto;
+margin-right: 30px;
 }
 .photo-iteam0{
 background-color: #FFFFFF;
